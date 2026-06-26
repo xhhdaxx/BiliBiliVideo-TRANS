@@ -1,0 +1,36 @@
+# === 敏感数据 / 版权内容（绝不提交） ===
+# input_folder / output_video 里是用户下载/合并的视频，存在版权，禁止上传
+input_folder/*
+!input_folder/.gitkeep
+output_video/*
+!output_video/.gitkeep
+
+# === Claude Code 相关（本地配置，不上传） ===
+CLAUDE.md
+.claude/
+
+# === 合并中间产物 ===
+*.cleaned.mp4
+*.cleaned.mp4.tmp
+
+# === macOS / 编辑器 ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# === 日志 ===
+*.log
